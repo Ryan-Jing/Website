@@ -16,8 +16,6 @@ nav{
 }
 
 
-
-
 .scrolling_active{
     background-color: white;
     box-shadow: 0 3px 1rem rgba( 0, 0, 0, .1 );
@@ -275,13 +273,14 @@ nav{
 
 .header {
     position: relative;  
-    height: 95px;
+    height: 130px;
     /*check how to make it so that when the screen is minimized, the ryan jing is centered, and not to the left side*/
 }
 
 .header p {
     display: flex;
     text-decoration: none;
+    text-align: center;
     align-items: center;
     font-size: 8rem;
     font-family: 'Caudex', serif;
@@ -296,12 +295,13 @@ nav{
 .header2
 {
     position: relative;  
-    height: 100px;
+    height: 120px;
 }
 
 .header2 p
 { 
     display: flex;
+    text-align: center;
     text-decoration: none;
     align-items: center;
     font-size: 1.5rem;
@@ -314,6 +314,151 @@ nav{
     margin: 0;
 }
 
+.header3
+{
+    position: relative;  
+    height: 10px;
+}
+
+.header3 p
+{ 
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Caudex', serif;
+    font-weight: 200;
+    position: absolute;
+    top: 200%;
+    left: 15%;
+    transform: translate(-10%, -30%);
+    margin: 0;
+}
+
+.header4
+{
+    position: relative;  
+    height: 10px;
+}
+
+.header4 p
+{ 
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Caudex', serif;
+    font-weight: 200;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    margin: 0
+}
+
+
+.Descript_header
+{
+    position: relative;  
+    height: 120px;
+}
+
+.Descript_header p
+{ 
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: "Avenir-Light", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 0;
+    position: absolute;
+    top: 200%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    margin: 0
+}
+
+.Descript_content
+{
+    position: relative;  
+    height: 65px;
+}
+
+.Descript_content p
+{ 
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: left;
+    font-family: "Avenir-Light", sans-serif;
+    font-weight: 200;
+    font-size: 1 rem;
+    font-weight: 0;
+    position: absolute;
+    top: 200%;
+    left: 40%;
+    transform: translate(-5%, -50%);
+    margin: 0
+}
+
+
+.Descript_header1
+{
+    position: relative;  
+    height: 0px;
+}
+
+.Descript_header1 p
+{ 
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: "Avenir-Light", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 0;
+    position: absolute;
+    top: 200%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    margin: 0
+}
+
+.Descript_content1
+{
+    position: relative;  
+    height: 0px;
+}
+
+.Descript_content1 p
+{ 
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: left;
+    font-family: "Avenir-Light", sans-serif;
+    font-weight: 200;
+    font-size: 1 rem;
+    font-weight: 0;
+    position: absolute;
+    top: 200%;
+    left: 40%;
+    transform: translate(-5%, -50%);
+    margin: 0
+}
+
+.covid_graph
+{
+    
+    height: 170px;
+
+}
+
 .h2{
     position: relative;
 }
@@ -324,6 +469,46 @@ nav{
 }
 
 
+
+.box {
+    margin: 12em auto;
+    overflow: hidden;
+    width: 1100px;
+    height: 600px;
+  }
+  
+  .ratio {
+    position: relative;
+  }
+  
+  .ratio::before {
+    background: rgba(0,0,0,.5);
+    color: white;
+    display: block;
+    left: 0;
+    padding: .25em;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .ratio-1\:1 { padding-top: 100%; }
+
+  .crop {
+    background: black;
+    overflow: hidden;
+    position: relative;
+
+  }
+  
+  .crop > * {
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 32%;
+    left: 50%;
+  }
 
 
 
