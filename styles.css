@@ -1,12 +1,13 @@
-
-*{
+*
+{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "Avenir-Light", sans-serif;
 }
 
-nav{
+nav
+{
     width: 100%;
     position: fixed;
     top: 0;
@@ -15,14 +16,14 @@ nav{
     z-index: 1000;
 }
 
-
-.scrolling_active{
+.scrolling_active
+{
     background-color: white;
     box-shadow: 0 3px 1rem rgba( 0, 0, 0, .1 );
-
 }
 
-.navbar {
+.navbar 
+{
     /*background: white;*/
     height: 100px;
     display: flex;
@@ -32,10 +33,10 @@ nav{
     position: sticky;
     top: 0;
     z-index: 999;
-    
 }
 
-.navbar_container{
+.navbar_container
+{
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -45,10 +46,9 @@ nav{
     margin: 0 auto; /*first number is distance from top and bottom, second number is left and right. Can also specify every value with 0 0 0 0*/
     padding: 0 50px;
 }
-
   
-#navbar_logo{
-   
+#navbar_logo
+{
     color: black;
     display: flex;
     text-decoration: none;
@@ -57,23 +57,26 @@ nav{
     font-size: 3rem;
 }
 
-.fa-gem{
+.fa-gem
+{
     margin-right: 0.5rem;
 }
 
-.navbar_menu{
+.navbar_menu
+{
     display: flex;
     align-items: center;
     list-style: none;
     text-align: center;
- 
 }
 
-.navbar_item{
+.navbar_item
+{
     height: 80px;
 }
 
-.navbar_links{
+.navbar_links
+{
     color: black;
     display: flex;
     align-items: center;
@@ -83,7 +86,8 @@ nav{
     height: 100%;
 }
 
-.navbar_btn{
+.navbar_btn
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +95,8 @@ nav{
     width: 100%;
 }
 
-.button{
+.button
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,18 +111,22 @@ nav{
     color: #fff;
 }
 
-.button:hover{
+.button:hover
+{
     background:rgb(196, 194, 194);
     transform: all 0.5s ease;
 }
 
-.navbar_links:hover{
+.navbar_links:hover
+{
     color:rgb(151, 148, 146);
     transition: all 0.35s ease;
 }
 
-@media screen and (max-width: 960px) {
-    .navbar_container {
+@media screen and (max-width: 960px) 
+{
+    .navbar_container 
+    {
       display: flex;
       justify-content: space-between;
       height: 80px;
@@ -127,7 +136,8 @@ nav{
       padding: 0;
     }
 
-    .navbar_menu{
+    .navbar_menu
+    {
         display: grid;
         grid-template-columns: auto;
         margin: 0;
@@ -140,7 +150,8 @@ nav{
         z-index: -1;
     }
 
-    .navbar_menu.active{
+    .navbar_menu.active
+    {
         background: white;
         top: 100%;
         opacity: 1;
@@ -150,11 +161,13 @@ nav{
         font-size: 1.6rem;
     }
 
-    #navbar_logo{
+    #navbar_logo
+    {
         padding-left: 25px;
     }
 
-    .navbar_toggle .bar{ /*NEED SPACE, OR ELSE DOESNT WORK!!!*/
+    .navbar_toggle .bar
+    { /*NEED SPACE, OR ELSE DOESNT WORK!!!*/
         width: 25px;
         height: 3px;
         margin: 5px auto;
@@ -162,24 +175,26 @@ nav{
         background: black;
     }
 
-    .navbar_item{
+    .navbar_item
+    {
         width: 100%;
     }
 
-    .navbar_links{
+    .navbar_links
+    {
         text-align: center;
         padding: 2rem;
         width: 100%;
         display: table;
     }
 
-
-    .navbar_btn{
+    .navbar_btn
+    {
         padding-bottom: 2rem;
- 
     }
 
-    .button{
+    .button
+    {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -188,52 +203,46 @@ nav{
         margin: 0;
     }
 
-    #mobile-menu{
+    #mobile-menu
+    {
         position: absolute;
         top: 20%;
         right: 5%;
         transform: translate( 5%, 20% );
-
     }
 
-    .navbar_toggle .bar{
+    .navbar_toggle .bar
+    {
         display: block;
         cursor: pointer;
     }
 
-    #mobile-menu.is-active.bar:nth-child(2){
+    #mobile-menu.is-active.bar:nth-child(2)
+    {
         opacity: 0;
     }
 
-    #mobile-menu.is-active.bar:nth-child(1){
+    #mobile-menu.is-active.bar:nth-child(1)
+    {
         transform: translateY(8px) rotate(45deg);
     }
     
-    #mobile-menu.is-active.bar:nth-child(3){
+    #mobile-menu.is-active.bar:nth-child(3)
+    {
         transform: translateY(-8px) rotate(-45deg);
     }
 }
 
-.back_image{
+.back_image
+{
     width: 100%;
     height: auto;
     z-index: -10000;
     position: absolute;
-
 }
 
-.bottom{
-    width: 100%;
-    height: auto;
-    z-index: -10000;
-    position: absolute;
-    -webkit-mask-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 15%);
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
-
-}
-
-
-.top{
+.bottom
+{
     width: 100%;
     height: auto;
     z-index: -10000;
@@ -242,12 +251,20 @@ nav{
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 
+.top
+{
+    width: 100%;
+    height: auto;
+    z-index: -10000;
+    position: absolute;
+    -webkit-mask-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 15%);
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
 
-
-
-@keyframes cf3FadeInOut {
-    0% {
-    opacity:1;
+@keyframes cf3FadeInOut 
+{
+  0% {
+  opacity:1;
   }
   45% {
   opacity:1;
@@ -258,26 +275,26 @@ nav{
   100% {
   opacity:0;
   }
-  }
+}
   
-  #cf3 img.top {
-  animation-name: cf3FadeInOut;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 30s;
-  animation-direction: alternate;
-  }
+#cf3 img.top 
+{
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 30s;
+animation-direction: alternate;
+}
 
-
-
-
-.header {
+.header 
+{
     position: relative;  
     height: 130px;
     /*check how to make it so that when the screen is minimized, the ryan jing is centered, and not to the left side*/
 }
 
-.header p {
+.header p 
+{
     display: flex;
     text-decoration: none;
     text-align: center;
@@ -358,7 +375,6 @@ nav{
     margin: 0
 }
 
-
 .Descript_header
 {
     position: relative;  
@@ -404,7 +420,6 @@ nav{
     transform: translate(-5%, -50%);
     margin: 0
 }
-
 
 .Descript_header1
 {
@@ -454,34 +469,35 @@ nav{
 
 .covid_graph
 {
-    
     height: 170px;
-
 }
 
-.h2{
+.h2
+{
     position: relative;
 }
 
-.line {
+.line 
+{
     border-bottom: 2px solid #000000;
     display: block;
 }
 
-
-
-.box {
+.box 
+{
     margin: 12em auto;
     overflow: hidden;
     width: 1100px;
     height: 600px;
-  }
+}
   
-  .ratio {
+.ratio
+{
     position: relative;
-  }
+}
   
-  .ratio::before {
+.ratio::before 
+{
     background: rgba(0,0,0,.5);
     color: white;
     display: block;
@@ -490,39 +506,39 @@ nav{
     position: absolute;
     top: 0;
     z-index: 10;
-  }
+}
   
-  .ratio-1\:1 { padding-top: 100%; }
+.ratio-1\:1 { padding-top: 100%; }
 
-  .crop {
+.crop 
+{
     background: black;
     overflow: hidden;
     position: relative;
 
-  }
-  
-  .crop > * {
+}
+
+.crop > * 
+{
     height: 100%;
     left: 50%;
     position: absolute;
     transform: translateX(-50%) translateY(-50%);
     top: 32%;
     left: 50%;
-  }
+}
 
-
-.lego1{
-
-position: absolute;
+.lego1
+{
+    position: absolute;
     transform: translateX(-50%) translateY(0%);
     height: 200px;
     top: 345%;
     left: 75%;
-
 }
 
-.lego2{
-   
+.lego2
+{
     position: absolute;
     transform: translateX(-50%) translateY(0%);
     height: 200px;
@@ -565,33 +581,35 @@ position: absolute;
 }
 */
 
-.onshape1{
-
-        position: absolute;
+.onshape1
+{
+    position: absolute;
     transform: translateX(-50%) translateY(50%);
     height: 1500px;
     top: 345%;
-    left: 25%;
+    left: 25%;    
+}
     
-    }
-    
-.onshape2{
+.onshape2
+{
     position: absolute;
-        transform: translateX(-50%) translateY(50%);
-        height: 1550px;
-        top: 340%;
-        left: 70%;
+    transform: translateX(-50%) translateY(50%);
+    height: 1550px;
+    top: 340%;
+    left: 70%;
 }
 
-.onshape3{
+.onshape3
+{
     position: absolute;
-        transform: translateX(-50%) translateY(80%);
-        height: 1500px;
-        top: 340%;
-        left: 50%;
-    }
+    transform: translateX(-50%) translateY(80%);
+    height: 1500px;
+    top: 340%;
+    left: 50%;
+}
     
-.onshape4{
+.onshape4
+{
     position: absolute;
     transform: translateX(-50%) translateY(100%);
     height: 1800px;
@@ -599,26 +617,27 @@ position: absolute;
     left: 27%;
 }
 
-.skate1{
-
+.skate1
+{
     position: absolute;
-transform: translateX(-50%) translateY(50%);
-height: 3200px;
-top: 345%;
-left: 25%;
-
+    transform: translateX(-50%) translateY(50%);
+    height: 3200px;
+    top: 345%;
+    left: 25%;
 }
 
-.skate2{
-position: absolute;
+.skate2
+{
+    position: absolute;
     transform: translateX(-50%) translateY(50%);
     height: 3200px;
     top: 340%;
     left: 70%;
 }
 
-.skate3{
-position: absolute;
+.skate3
+{
+    position: absolute;
     transform: translateX(-50%) translateY(70%);
     height: 3000px;
     top: 340%;
