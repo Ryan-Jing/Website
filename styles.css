@@ -615,7 +615,7 @@ animation-direction: alternate;
     transform: translateX(50%) translateY(80%);
     height: 1500px;
     top: 402.3%;
-    z-index: 1000;
+    z-index: 10;
     left: 27%;
 }
 
@@ -642,8 +642,64 @@ animation-direction: alternate;
     position: absolute;
     transform: translateX(-50%) translateY(70%);
     height: 3000px;
-    top: 405%;
+    top: 400%;
     left: 50%;
 }
+
+.Descript_header3
+{
+    position: relative;  
+    height: 400px;
+}
+
+.Descript_header3 p
+{ 
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: "Avenir-Light", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 0;
+    position: absolute;
+    top: 505%;
+    left: 20%;
+    transform: translate(-50%, -100%);
+    margin: 0
+}
+
+.Descript_content3
+{
+    position: relative;  
+    height: 400px;
+}
+
+.Descript_content3 p
+{ 
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: left;
+    font-family: "Avenir-Light", sans-serif;
+    font-weight: 200;
+    font-size: 1 rem;
+    font-weight: 0;
+    position: absolute;
+    top: 408%;
+    left: 40%;
+    transform: translate(-5%, -100%);
+    margin: 0
+}
+
+.vdesign3
+{
+    position: absolute;
+    transform: translateX(-50%) translateY(91%);
+    height: 3000px;
+    top: 400%;
+    left: 50%;
+}
+
 
 
