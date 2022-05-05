@@ -512,7 +512,7 @@ animation-direction: alternate;
 
 .crop 
 {
-    background: black;
+    background: white;
     overflow: hidden;
     position: relative;
 
@@ -521,11 +521,10 @@ animation-direction: alternate;
 .crop > * 
 {
     height: 100%;
-    left: 50%;
     position: absolute;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-62%) translateY(-50%);
     top: 32%;
-    left: 50%;
+    left: 57.5%;
 }
 
 .lego1
@@ -536,7 +535,6 @@ animation-direction: alternate;
     top: 400%;
     left: 75%;
     z-index: -5;
-
 }
 
 .lego2
@@ -552,7 +550,7 @@ animation-direction: alternate;
 .Descript_content2
 {
     position: relative;  
-    height: 20px;
+    height: 40px;
 }
 
 .Descript_content2 p
@@ -605,7 +603,7 @@ animation-direction: alternate;
 .onshape3
 {
     position: absolute;
-    transform: translateX(-50%) translateY(80%);
+    transform: translateX(-115%) translateY(80%);
     height: 1500px;
     top: 400%;
     left: 50%;
@@ -614,9 +612,9 @@ animation-direction: alternate;
 .onshape4
 {
     position: absolute;
-    transform: translateX(-10%) translateY(100%);
+    transform: translateX(50%) translateY(80%);
     height: 1500px;
-    top: 340;
+    top: 402.3%;
     z-index: 1000;
     left: 27%;
 }
