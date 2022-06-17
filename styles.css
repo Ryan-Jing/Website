@@ -701,5 +701,299 @@ animation-direction: alternate;
     left: 50%;
 }
 
+.aboutmephoto
+{
+    position: absolute;
+    transform: translateX(60%) translateY(10%);
+    height: 550px;
+    top: 15%;
+    left: 20%;
+}
+
+.aboutmeprofile p
+{ 
+    display: flex; 
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-size: 8.5rem;
+    font-family: 'Caudex', serif;
+    font-weight: 200;
+    position: absolute;
+    top: 30%;
+    left: 13%;
+    margin: 0;
+}
+
+.aboutme1 p
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: 'Avenir-Light', Sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 54%;
+    left: 13.5%;
+    margin: 0
+}
+
+.aboutme2 p
+{
+    display: flex;
+    text-decoration: none;
+    align-items: left;
+    text-align: left;
+    font-family: 'Avenir-Light', Sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 62%;
+    left: 13.5%;
+    margin: 0;
+    width: 400px;
+}
+
+.aboutmeheader p
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Caudex', serif;
+    font-weight: 200;
+    position: absolute;
+    top: 114%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin: 0;
+}
+
+.aboutmecontent p
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Caudex', serif;
+    font-weight: 200;
+    position: absolute;
+    top: 135%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    margin: 0;
+    width: 1000px;
+}
+
+.exp p
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Caudex', serif;
+    font-weight: 200;
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    margin: 0;
+}
+
+.expblock1
+{
+    position: absolute;
+    top: 180%;
+    left: 7%;
+}
+
+.exp11 p
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: 'Avenir-Light', Sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 200%;
+    left: 13.5%;
+    margin: 0;
+    width: 400px;
+    transform: translate(7%, 0%);
+}
+
+.exp21 p
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: 'Avenir-Light', Sans-serif;
+    font-weight: Bold;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 200%;
+    left: 30%;
+    margin: 0;
+    transform: translate(114%, 0%);
+}
+
+.exp31 p
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: 'Avenir-Light', Sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 220%;
+    left: 13.5%;
+    margin: 0;
+    width: 350px;
+    transform: translate(0%, 80%);
+}
+
+.expblock2
+{
+    position: absolute;
+    top: 180%;
+    left: 40%;
+}
+
+.exp12 p
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: 'Avenir-Light', Sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 200%;
+    left: 13.5%;
+    margin: 0;
+    width: 400px;
+    transform: translate(7%, 0%);
+}
+
+.exp22 p
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: 'Avenir-Light', Sans-serif;
+    font-weight: Bold;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    margin: 0;
+    transform: translate(220%, -20%);
+}
+
+.exp32 p
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: 'Avenir-Light', Sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 220%;
+    left: 13.5%;
+    margin: 0;
+    width: 350px;
+    transform: translate(-10%, 45%);
+}
+
+.expblock3
+{
+    position: absolute;
+    top: 180%;
+    left: 70%;
+}
+
+.exp13 p
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: 'Avenir-Light', Sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 200%;
+    left: 13.5%;
+    margin: 0;
+    width: 400px;
+    transform: translate(7%, 0%);
+}
+
+.exp23 p
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: 'Avenir-Light', Sans-serif;
+    font-weight: Bold;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    margin: 0;
+    transform: translate(130%, -20%);
+}
+
+.exp33 p
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: 'Avenir-Light', Sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 220%;
+    left: 13.5%;
+    margin: 0;
+    width: 350px;
+    transform: translate(0%, 55%);
+}
+
+.aboutmeheader2 p
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Caudex', serif;
+    font-weight: 200;
+    position: absolute;
+    top: 220%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin: 0;
+}
+
+
+
+
 
 
