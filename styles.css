@@ -546,7 +546,7 @@ animation-direction: alternate;
     position: absolute;
     transform: translateX(-50%) translateY(0%);
     height: 200px;
-    top: 400%;
+    top: 350%;
     left: 75%;
     z-index: -5;
 }
@@ -556,7 +556,7 @@ animation-direction: alternate;
     position: absolute;
     transform: translateX(-50%) translateY(0%);
     height: 200px;
-    top: 410%;
+    top: 355%;
     left: 27%;
     z-index: -5;
 }
@@ -601,7 +601,7 @@ animation-direction: alternate;
     position: absolute;
     transform: translateX(-50%) translateY(50%);
     height: 1500px;
-    top: 405%;
+    top: 355%;
     left: 25%;    
 }
     
@@ -610,7 +610,7 @@ animation-direction: alternate;
     position: absolute;
     transform: translateX(-50%) translateY(50%);
     height: 1550px;
-    top: 400%;
+    top: 350%;
     left: 70%;
 }
 
@@ -619,7 +619,7 @@ animation-direction: alternate;
     position: absolute;
     transform: translateX(-115%) translateY(80%);
     height: 1500px;
-    top: 400%;
+    top: 350%;
     left: 50%;
 }
     
@@ -628,7 +628,7 @@ animation-direction: alternate;
     position: absolute;
     transform: translateX(50%) translateY(80%);
     height: 1500px;
-    top: 402.3%;
+    top: 352.3%;
     z-index: 10;
     left: 27%;
 }
@@ -638,7 +638,7 @@ animation-direction: alternate;
     position: absolute;
     transform: translateX(-50%) translateY(50%);
     height: 3200px;
-    top: 405%;
+    top: 355%;
     left: 25%;
 }
 
@@ -647,7 +647,7 @@ animation-direction: alternate;
     position: absolute;
     transform: translateX(-50%) translateY(50%);
     height: 3200px;
-    top: 400%;
+    top: 350%;
     left: 70%;
 }
 
@@ -656,7 +656,7 @@ animation-direction: alternate;
     position: absolute;
     transform: translateX(-50%) translateY(70%);
     height: 3000px;
-    top: 400%;
+    top: 350%;
     left: 50%;
 }
 
@@ -711,7 +711,7 @@ animation-direction: alternate;
     position: absolute;
     transform: translateX(-50%) translateY(91%);
     height: 3000px;
-    top: 400%;
+    top: 350%;
     left: 50%;
 }
 
@@ -882,7 +882,7 @@ animation-direction: alternate;
 {
     position: absolute;
     top: 160%;
-    left: 40%;
+    left: 41.5%;
 }
 
 .exp12 p
@@ -997,7 +997,7 @@ animation-direction: alternate;
 {
     position: absolute;
     top: 200%;
-    left: 20%;
+    left: 7%;
 }
 
 .exp14 p
@@ -1014,7 +1014,7 @@ animation-direction: alternate;
     left: 13.5%;
     margin: 0;
     width: 400px;
-    transform: translate(7%, 0%);
+    transform: translate(7%, 30%);
 }
 
 .exp24 p
@@ -1028,9 +1028,9 @@ animation-direction: alternate;
     font-size: 1.2rem;
     position: absolute;
     top: 200%;
-    left: 50%;
+    left: 40%;
     margin: 0;
-    transform: translate(130%, -20%);
+    transform: translate(140%, 0%);
 }
 
 .exp34 p
@@ -1043,18 +1043,18 @@ animation-direction: alternate;
     font-weight: 200;
     font-size: 1.2rem;
     position: absolute;
-    top: 215%;
-    left: 17.5%;
+    top: 220%;
+    left: 13.5%;
     margin: 0;
     width: 350px;
-    transform: translate(0%, 65%);
+    transform: translate(0%, 60%);
 }
 
 .expblock5
 {
     position: absolute;
     top: 200%;
-    left: 55%;
+    left: 70%;
 }
 
 .exp15 p
@@ -1087,7 +1087,7 @@ animation-direction: alternate;
     top: 200%;
     left: 50%;
     margin: 0;
-    transform: translate(265%, -20%);
+    transform: translate(250%, -20%);
 }
 
 .exp35 p
@@ -1100,11 +1100,69 @@ animation-direction: alternate;
     font-weight: 200;
     font-size: 1.2rem;
     position: absolute;
-    top: 230%;
-    left: 30%;
+    top: 220%;
+    left: 17.5%;
+    margin: 0;
+    width: 350px;
+    transform: translate(0%, 45%);
+}
+
+.expblock6
+{
+    position: absolute;
+    top: 200%;
+    left: 41.5%;
+}
+
+.exp16 p
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: 'Avenir-Light', Sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 200%;
+    left: 13.5%;
     margin: 0;
     width: 400px;
-    transform: translate(0%, 64%);
+    transform: translate(2%, 0%);
+}
+
+.exp26 p
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: 'Avenir-Light', Sans-serif;
+    font-weight: Bold;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    margin: 0;
+    width: 150px;
+    transform: translate(110%, 0%);
+}
+
+.exp36 p
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: 'Avenir-Light', Sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 220%;
+    left: 13.5%;
+    margin: 0;
+    width: 350px;
+    transform: translate(-10%, 45%);
 }
 
 .aboutmeheader2 p
@@ -1355,6 +1413,13 @@ hr{
 {
     opacity: 0;
     transition: 2s;
+}
+
+.contactinfomain
+{
+    position: absolute;
+    top: 20%;
+    left: 7%;
 }
 
 
